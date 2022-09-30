@@ -19,7 +19,7 @@ jobs:
             files_bl: "cm.bin.lz4 keystorage.bin.lz4 sboot.bin.lz4 uh.bin.lz4 up_param.bin.lz4"
             files_cp: "modem.bin.lz4 modem_debug.bin.lz4"
           - model: "SM-M215F"
-            region: "TUR"
+            region: "DBT"
             files_bl: "cm.bin.lz4 keystorage.bin.lz4 sboot.bin.lz4 uh.bin.lz4 up_param.bin.lz4"
             files_cp: "modem.bin.lz4 modem_debug.bin.lz4"
 
