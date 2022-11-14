@@ -2,7 +2,7 @@ name: Check firmware update
 
 on:
   schedule:
-    - cron: '0 0 * * *'
+    - cron: '0 0 1 * *'
   push:
   workflow_dispatch:
 
@@ -15,15 +15,15 @@ jobs:
       matrix:
         include:
           - model: "SM-A515F"
-            region: "DBT"
+            region: "TUR"
             files_bl: "cm.bin.lz4 keystorage.bin.lz4 sboot.bin.lz4 uh.bin.lz4 up_param.bin.lz4"
             files_cp: "modem.bin.lz4 modem_debug.bin.lz4"
           - model: "SM-M215F"
-            region: "DBT"
+            region: "TUR"
             files_bl: "cm.bin.lz4 keystorage.bin.lz4 sboot.bin.lz4 uh.bin.lz4 up_param.bin.lz4"
             files_cp: "modem.bin.lz4 modem_debug.bin.lz4"
           - model: "SM-M315F"
-            region: "DBT"
+            region: "TUR"
             files_bl: "cm.bin.lz4 keystorage.bin.lz4 sboot.bin.lz4 uh.bin.lz4 up_param.bin.lz4"
             files_cp: "modem.bin.lz4 modem_debug.bin.lz4"
 
